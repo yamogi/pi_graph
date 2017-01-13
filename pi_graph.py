@@ -1,9 +1,11 @@
 #!/usr/bin/env python
+# coding: utf-8
+from __future__ import print_function, unicode_literals
 
 pi = "3.1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679"
 passes = 9
 num = 0
-char = ":"
+char = "┃"
 
 print(pi)
 
