@@ -11,11 +11,9 @@ print(pi)
 
 for i in range(0, passes): # parse pi 10 times (0 to 9)
     for j in range(0, len(pi)): # each parse, check each character individually
-        if pi[j] == ".": # if the checked char is the decimal point
+        if (pi[j] == ".") or (int(pi[j]) <= num): # if the checked char is the decimal point, or checked car <= number to check
             print(" ", end="") # print a space
-        elif int(pi[j]) <= num: # if the checked char <= the number to check
-            print(" ", end="") # print a space
-        else: # ...
+        else:
             print(char, end="") # print a specific character
 
     num += 1 # increment the number to check
