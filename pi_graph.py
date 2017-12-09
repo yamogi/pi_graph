@@ -17,6 +17,6 @@ for i in range(0, passes):                         # parse pi 10 times (0 to 9)
             print(char, end="")                    # print a specific character
 
     num += 1  # increment the number to check
-    print() # newline
+    print()  # newline
 
 print()  # newline
